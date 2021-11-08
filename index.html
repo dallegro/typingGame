@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TYPING MASTER</title>
+    <script src="node_modules/axios/dist/axios.js"></script>
+    <script src="node_modules/toastify-js/src/toastify.js"></script>
+    <link rel="stylesheet" href="node_modules/toastify-js/src/toastify.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1>TYPING MASTER!</h1>
+    </div>
+    <div class="word-display">
+        Hello
+    </div>
+    <div class="word-input-box">
+        <input type="text" class="word-input">
+    </div>
+    <div class="game-info">
+        <div>남은시간 : <span class="time">0</span>초</div>
+        <div>획득점수 : <span class="score">0</span>점</div>
+    </div>
+<!--     <div class="level-button">
+        <button class="level level1" onclick="levelUP()">난이도 하</button>
+        <button class="level level2" onclick="levelUP()">난이도 중</button>
+        <button class="level level3" onclick="levelUP()">난이도 상</button>
+    </div> -->
+    <button class="button loading" onclick="run()">게임을 불러오는중...</button>
+
+</body>
+
+<script src="js/app.js"></script>
+
+</html>
